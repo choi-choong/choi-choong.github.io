@@ -3,3 +3,333 @@ layout: home
 title: Home
 ---
 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>포트폴리오</title>
+<style type="text/css">
+.vision_container {
+    
+	width: 100%;
+	max-width: 900px;
+	height: 425px;
+	margin: 0 auto;
+	background: url('img/company_vision.png') no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+#brand_mission {
+	background-color: #f8f8f8;
+}
+
+#brand_mission .brand_m, #contact_us .brand_m {
+	text-align: center;
+	margin: 0;
+	height: 15vh;
+	line-height: 15vh;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #3f4baa;
+}
+
+.brand_v {
+	text-align: center;
+	margin: 0;
+	height: 13vh;
+	line-height: 6vh;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #3f4baa;
+}
+
+.contents_container {
+	width: 100%;
+	max-width: 900px;
+	min-height: 40vh;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.mission_title {
+	font-size: 28px;
+	line-height: 1.5;
+	text-align: center;
+	font-weight: 400;
+}
+
+ul.mission_column {
+	padding: 0;
+	text-align: center;
+}
+
+ul.mission_column li {
+	margin: 20px 40px;
+	line-height: 1.5;
+}
+
+ul.mission_column li h4 {
+	font-size: 24pt;
+	margin: 15px 0 0;
+}
+
+.mission_underline {
+	background: #3f4baa;
+	height: 5px;
+	width: 140px;
+	margin: 0 auto;
+}
+
+.mission_circle {
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	border: 2px solid #3f4baa;
+	margin: 30px auto 30px;
+}
+
+.location_container {
+	width: 94%;
+	padding: 3%;
+	max-width: 800px;
+	margin-top: 10px;
+}
+
+.head_office {
+	float: left;
+	width: 120px;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+table.address {
+	float: right;
+	border: none;
+	border-collapse: collapse;
+	max-width: 520px;
+}
+
+table.address td:first-child {
+	width: 96px;
+	vertical-align: top;
+}
+
+table.address td {
+	font-size: 15px;
+	line-height: 1.3;
+	padding: 4px 0;
+}
+
+table.address td:nth-child(2) {
+	font-weight: 400;
+	color: #888;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#sub_visual_area {
+	margin-top: 50px;
+	min-height: 500px;
+	background: #f1f1d5 url(img/banner02.jpg) center no-repeat
+}
+
+/* map 관련 css */
+#map {
+	margin: 0 auto;
+	width: 80%;
+	height: 450px;
+}
+#p{
+   margin: 30px;
+	min-height: 500px;
+   color:#fff;
+   background: #000000 
+   
+  
+}
+div.Box_info p{
+  margin-left: 50px;
+}
+</style>
+</head>
+<body>
+	
+
+
+	<!--visual_area-->
+	<section id="sub_visual_area"></section>
+	<!--visual_area end-->
+	<section id="content_area">
+		<div class="container">
+			<div class="content_wrap">
+				<div class="content_top">
+					<h3>* 포트폴리오 소개</h3>
+					<ul class="breadcrumb">
+
+					</ul>
+				</div>
+				<div class="contents">
+					<!--  vision -->
+					<div class="vision_container">
+						<h3 class="brand_v">VISION</h3>
+						<br />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  mission -->
+	<div id="brand_mission">
+		<h3 class="brand_m">Brand Mission</h3>
+		<div class="contents_container">
+			<h3 class="mission_title">간략하게, 제 소개를 하겠습니다</h3>
+			<ul class="mission_column">
+				<li>
+					<h4>이름은</h4>
+					<div class="mission_underline">&nbsp;</div>
+					<div class="mission_circle">&nbsp;</div> 최충이고 나이는 86년생 35살 입니다 미혼이고
+					광주에 있는 한울직업전문학교에서 &amp JAVA기반 응용SW 개발자 양성과정을 수료했습니다
+				</li>
+				<li>
+					<h4 class="skills scroll">Skills</h4>
+					<div class="mission_underline">&nbsp;</div>
+					<div class="mission_circle">&nbsp;</div> 자바, html,자바스크립트 , jQuery,
+					jsp , sql , 스프링 ,안드로이드 스튜디오 등을 배워서 해봤습니다
+				</li>
+				<li>
+					<h4>할 수 있게</h4>
+					<div class="mission_underline">&nbsp;</div>
+					<div class="mission_circle">&nbsp;</div> 저를 필요로 하신다면 서울 어디든지 가겠습니다
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 프로젝트 -->
+	<div class="project" id="p">
+		<header class="Project_title">
+			<h1 class="Project_hedding">Project</h1>
+		</header>
+		<div class="Container">
+			<div class="Row">
+				<div class="Box">
+					<div class="Box_image">
+						<a href="https://github.com/leehangje/NewDteamSpring.git"> <img
+							
+							class="image"></a>
+					</div>
+					<div class="Box_info">
+						<h1 class="Box_title">당근마켓 같은 대여 쇼핑몰</h1>
+						<h2 class="name">개발기간 :2020.09.01~ 2018.10.23</h2>
+						<p class="Box_content">Spring + Android Studio + Sql를
+							이용하여 로그인 기능이 구현된 쇼핑몰.</p>
+						<ul class="Box_ul">
+							<li class="Box_li">#스프링</li>
+							<li class="Box_li">#안드로이드 스튜디오</li>
+							<li class="Box_li">#sql</li>
+							<li class="Box_li">아래를 눌러주세요^^</li>
+						</ul>
+						
+							<p class="Box_li"><a
+								href="https://github.com/leehangje/NewDteamSpring.git" alt="github"> <img
+									src="img/github.png"
+									alt="github" ></a></p>
+						
+					</div>
+				</div>
+				
+				
+			
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  주소 -->
+	<div id="contact_us">
+		<h3 class="brand_m">contact us</h3>
+		<div id="map"></div>
+		<div class="contents_container">
+			<div class="location_container">
+				<div class="head_office">열심히 하겠습니다</div>
+				<table class="address">
+					<tbody>
+						<tr>
+							<td>사는 곳</td>
+							<td>서울특별시 충정로3가 23-3번지</td>
+						</tr>
+
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>핸드폰</td>
+							<td>010) 6683-2700</td>
+						</tr>
+
+						<tr>
+							<td>이메일</td>
+							<td>ch2946@naver.com</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- google map을 위한 js -->
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsrerDHJrp9Wu09Ij7MUELxCTPiYfxfBI"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		var nav = null;
+		var map;
+		var marker;
+
+		google.maps.event.addDomListener(window, 'load', initialize(37.562688, 126.961638));
+			
+		// Google Map으로 위도와 경도 초기화
+		//initialize(35.15364860194203, 126.887975975145);
+
+		function initialize(latitude, longitude) {
+			// 현재 위치의 위도와 경도 정보를 currentLocatioon 에 초기화 
+			var currentLocation = new google.maps.LatLng(latitude, longitude);
+			var mapOptions = {
+				center : currentLocation, 	//지도에 보여질 위치			
+				zoom : 15, 		//지도 줌 (0축소 ~ 18확대) 	
+				mapTypeId : google.maps.MapTypeId.ROADMAP
+			};
+			
+			// DIV에 지도 달아주기
+			map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			
+			// 지도 위에 마커 달아주기
+			marker = new google.maps.Marker({
+				position : currentLocation,
+				map : map
+			});
+			
+			google.maps.event.addListener(marker, 'click', toggleBounce(marker));
+
+		}
+
+		function toggleBounce(marker) {
+			if (marker.getAnimation() != null) {
+				marker.setAnimation(null);
+			} else {
+				marker.setAnimation(google.maps.Animation.BOUNCE);
+			}
+		}
+		
+		
+	
+		
+	</script>
+</body>
+</html>
